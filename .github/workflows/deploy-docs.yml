@@ -33,7 +33,7 @@ jobs:
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
       - name: Deploy Docs
-        uses: noname0443/docasaurus_test
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           branch: gh-pages
           folder: src/.vuepress/dist
