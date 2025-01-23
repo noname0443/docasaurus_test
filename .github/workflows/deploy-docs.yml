@@ -38,3 +38,5 @@ jobs:
           branch: gh-pages
           folder: src/.vuepress/dist
           build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
