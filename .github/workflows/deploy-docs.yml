@@ -8,17 +8,22 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
         with:
-          node-version: '22'
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
       - name: Install deps
-        run: npm install --frozen-lockfile
+        run: npm ci
       - name: Build VuePress site
         run: npm run docs:build
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages
-          build_dir: public
+          build_dir: docs/.vuepress/dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
