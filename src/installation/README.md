@@ -1,11 +1,11 @@
 ---
 title: Installation
 index: false
-icon: laptop-code
+icon: box-open
 category:
   - Guide
 pageInfo: false
-breadcrumb: false
+breadcrumb: true
 contributors: false
 editLink: false
 lastUpdated: false

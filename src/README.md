@@ -3,7 +3,7 @@ home: false
 pageInfo: false
 icon: house
 title: Home
-breadcrumb: false
+breadcrumb: true
 contributors: false
 editLink: false
 lastUpdated: false

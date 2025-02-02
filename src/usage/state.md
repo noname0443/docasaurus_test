@@ -1,14 +1,14 @@
 ---
 title: State
-icon: file
-order: 4
+icon: heart-pulse
 category:
   - Guide
-
-breadcrumb: false
 pageInfo: false
+breadcrumb: true
 contributors: false
 editLink: false
 lastUpdated: false
 backtotop: false
 ---
+
+Retrieves information directly from MySQL on cluster hosts. Can get only manager's host system metrics.

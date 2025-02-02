@@ -12,9 +12,14 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/plugin-icon": "^2.0.0-rc.74",
     "sass-embedded": "^1.83.0",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
+    "vuepress": "^2.0.0-rc.19",
     "vuepress-theme-hope": "2.0.0-rc.70"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "vuepress-plugin-components": "^2.0.0-rc.71"
   }
 }

@@ -1,7 +1,6 @@
 ---
-title: Documentation
-index: false
-icon: laptop-code
+title: Resetup
+icon: arrows-rotate
 category:
   - Guide
 pageInfo: false
@@ -11,5 +10,4 @@ editLink: false
 lastUpdated: false
 backtotop: false
 ---
-
-<Catalog />
+Out of the box mysync does not provide tools to reset up MySQL nodes.

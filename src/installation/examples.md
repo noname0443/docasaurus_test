@@ -1,7 +1,6 @@
 ---
-title: Documentation
-index: false
-icon: laptop-code
+title: Examples
+icon: list
 category:
   - Guide
 pageInfo: false
@@ -11,5 +10,4 @@ editLink: false
 lastUpdated: false
 backtotop: false
 ---
-
-<Catalog />
+Some text here

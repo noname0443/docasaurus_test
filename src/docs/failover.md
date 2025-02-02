@@ -1,15 +1,13 @@
 ---
-title: Usage
-index: false
-icon: laptop-code
+title: Failover
+icon: circle-exclamation
 category:
   - Guide
 pageInfo: false
-breadcrumb: false
+breadcrumb: true
 contributors: false
 editLink: false
 lastUpdated: false
 backtotop: false
 ---
-
-<Catalog />
+Some text here

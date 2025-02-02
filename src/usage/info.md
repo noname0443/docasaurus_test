@@ -1,7 +1,6 @@
 ---
-title: Documentation
-index: false
-icon: laptop-code
+title: Info
+icon: info
 category:
   - Guide
 pageInfo: false
@@ -12,4 +11,4 @@ lastUpdated: false
 backtotop: false
 ---
 
-<Catalog />
+Using DCS to retrieve information about current cluster state.

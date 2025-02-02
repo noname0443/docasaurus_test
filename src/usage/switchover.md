@@ -1,7 +1,6 @@
 ---
-title: Documentation
-index: false
-icon: laptop-code
+title: Switchover
+icon: shuffle
 category:
   - Guide
 pageInfo: false
@@ -12,4 +11,4 @@ lastUpdated: false
 backtotop: false
 ---
 
-<Catalog />
+Some text here
