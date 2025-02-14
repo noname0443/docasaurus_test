@@ -11,4 +11,5 @@ lastUpdated: false
 backtotop: false
 ---
 
-Out of the box mysync does not provide tools to reset up MySQL nodes.
+Recovery
+
